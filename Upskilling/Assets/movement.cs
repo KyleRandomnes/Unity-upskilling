@@ -11,6 +11,6 @@ public class movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.AddForce(0, 0, 200);
+        rb.AddForce(0, 0, 2000 * Time.deltaTime);
     }
 }
