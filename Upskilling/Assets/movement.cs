@@ -4,7 +4,7 @@ public class movement : MonoBehaviour
 {
     public Rigidbody rb;
 
-    public float forwardforce = 2000f;
+    public float forwardforce = 1000f;
     public float sidewaysforce = 500f;
     // Update is called once per frame
     void FixedUpdate()
