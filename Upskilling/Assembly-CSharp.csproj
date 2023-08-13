@@ -53,8 +53,9 @@
     <UnityVersion>2020.3.43f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\movement.cs" />
     <Compile Include="Assets\FollowPlayer.cs" />
+    <Compile Include="Assets\movement.cs" />
+    <Compile Include="Assets\playerCollision.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
