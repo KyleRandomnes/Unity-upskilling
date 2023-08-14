@@ -54,8 +54,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\FollowPlayer.cs" />
-    <Compile Include="Assets\movement.cs" />
     <Compile Include="Assets\playerCollision.cs" />
+    <Compile Include="Assets\movement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
