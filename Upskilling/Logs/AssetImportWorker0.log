@@ -252,3 +252,9 @@ Received Import Request.
   path: ProjectSettings/TagManager.asset
   artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d24b0b8d29bde2a300ea719e40e209d') in 0.044679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 458.795252 seconds.
+  path: Assets/playerCollision.cs
+  artifactKey: Guid(8e3751a7fd314734cb49a2ec3a203585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/playerCollision.cs using Guid(8e3751a7fd314734cb49a2ec3a203585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca0ce5aada02ef70fb160424e78a12c') in 0.028200 seconds 
