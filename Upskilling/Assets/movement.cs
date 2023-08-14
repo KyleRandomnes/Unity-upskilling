@@ -5,7 +5,7 @@ public class movement : MonoBehaviour
     public Rigidbody rb;
 
     public float forwardforce = 1000f;
-    public float sidewaysforce = 500f;
+    public float sidewaysforce = 50f;
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -14,11 +14,11 @@ public class movement : MonoBehaviour
         
         if(Input.GetKey("d"))
         {
-            rb.AddForce(sidewaysforce * Time.deltaTime, 0, 0);
+            rb.AddForce(sidewaysforce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
         if (Input.GetKey("a"))
         {
-            rb.AddForce(-sidewaysforce * Time.deltaTime, 0, 0);
+            rb.AddForce(-sidewaysforce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
     }
 }
