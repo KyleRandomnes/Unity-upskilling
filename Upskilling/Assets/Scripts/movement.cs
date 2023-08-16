@@ -20,5 +20,10 @@ public class movement : MonoBehaviour
         {
             rb.AddForce(-sidewaysforce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
+
+        if(rb.position.y < -5f)
+        {
+            FindObjectOfType<GameManager>().EndGame();
+        }
     }
 }

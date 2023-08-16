@@ -9,6 +9,7 @@ public class playerCollision : MonoBehaviour
         if(collision.collider.tag == "obstacle")
         {
             move.enabled = false;
+            FindObjectOfType<GameManager>().EndGame();
         }
     }
 }
