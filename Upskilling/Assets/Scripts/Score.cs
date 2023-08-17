@@ -13,6 +13,7 @@ public class Score : MonoBehaviour
         if (FindObjectOfType<GameManager>().gameEnded == true)
         {
             scoreText.text = "GAME OVER";
+            Debug.Log(typeof(string).Assembly.ImageRuntimeVersion);
         }
     }
 }
