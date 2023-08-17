@@ -55,10 +55,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\playerCollision.cs" />
+    <Compile Include="Assets\Scripts\EndTrigger.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Scripts\movement.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
-    <Compile Include="Assets\EndTrigger.cs" />
+    <Compile Include="Assets\Scripts\levelComplete.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
