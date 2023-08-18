@@ -58,8 +58,8 @@
     <Compile Include="Assets\Scripts\EndTrigger.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Scripts\movement.cs" />
-    <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\levelComplete.cs" />
+    <Compile Include="Assets\Scripts\Score.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
